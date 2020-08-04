@@ -1,0 +1,34 @@
+<HTML>
+ <HEAD>
+  <TITLE>系统迁移提示！</TITLE>
+ </HEAD>
+	<style>
+		#main a{display:inline-block;text-decoration:none;color:#006699;}
+		#main a:hover{color:#3399cc;}
+	</style>
+
+	<script>
+		function addBookmark(url,title) {
+			alert(title);
+			if (window.sidebar) {
+				window.sidebar.addPanel(title, url,"");
+			} 
+			else if(document.all) {
+				window.external.AddFavorite( url, title);
+			}
+			else if( window.opera && window.print ) {
+				return true;
+			}
+		}
+
+	</script>
+ <BODY style="text-align:center;">
+
+		<div id="main" style="border:3px double #979797;width:550px;padding:20px;margin:0 auto;background:#F6F9FE;font: 1em '宋体',Arial,Times;">
+		<h3>温馨提示</h3>
+		您访问的网站已迁到以下地址，对您造成的不便请谅解，谢谢！<br/><br/>
+		最新地址：<a href="http://192.168.2.21/budget/CheckFlowsystem.aspx">经费预实算系统</a>
+		
+		</div>
+ </BODY>
+</HTML>

@@ -1,0 +1,13 @@
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\HDSZCheckFlow.Entiy.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Castle.ActiveRecord.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\NHibernate.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Iesi.Collections.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Castle.Model.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\log4net.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Nullables.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Castle.DynamicProxy.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Castle.Model.xml
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Castle.ActiveRecord.xml
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\bin\Release\Castle.DynamicProxy.xml
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\obj\Release\ResolveAssemblyReference.cache
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Entiy\obj\Release\HDSZCheckFlow.Entiy.dll

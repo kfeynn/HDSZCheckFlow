@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.Services.Logging.NLogIntegration</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.Services.Logging.NLogIntegration.NLogFactory">
+            <summary>
+            Summary description for NLogFactory.
+            </summary>
+        </member>
+        <member name="T:Castle.Services.Logging.NLogIntegration.NLogLogger">
+            <summary>
+            Summary description for NLogLogger.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdBanquetForPurchase" targetNamespace="http://tempuri.org/XsdBanquetForPurchase.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdBanquetForPurchase.xsd"
+	xmlns:mstns="http://tempuri.org/XsdBanquetForPurchase.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdBanquetForPurchase" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="BaseApplyBanquet">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ApplySheetNo" type="xs:string" minOccurs="0" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" />
+							<xs:element name="DeptName" type="xs:string" minOccurs="0" />
+							<xs:element name="ApplyDate" type="xs:string" minOccurs="0" />
+							<xs:element name="ApplySheetHead_Pk" type="xs:string" minOccurs="0" />
+							<xs:element name="subjectCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Dispname" type="xs:string" minOccurs="0" />
+							<xs:element name="DeliveryDate" type="xs:string" minOccurs="0" />
+							<xs:element name="DateFrom" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DateTo" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CallinCompany" type="xs:string" minOccurs="0" />
+							<xs:element name="CallinPerson" type="xs:string" minOccurs="0" />
+							<xs:element name="CallinMemo" type="xs:string" minOccurs="0" />
+							<xs:element name="inviteDept" type="xs:string" minOccurs="0" />
+							<xs:element name="invitePerson" type="xs:string" minOccurs="0" />
+							<xs:element name="invietDeptInfo" type="xs:string" minOccurs="0" />
+							<xs:element name="relationDept" type="xs:string" minOccurs="0" />
+							<xs:element name="talkplace" type="xs:string" minOccurs="0" />
+							<xs:element name="needTea" type="xs:string" minOccurs="0" />
+							<xs:element name="lookFactory" type="xs:string" minOccurs="0" />
+							<xs:element name="numofvisit" type="xs:int" minOccurs="0" />
+							<xs:element name="lunch" type="xs:string" minOccurs="0" />
+							<xs:element name="other" type="xs:string" minOccurs="0" />
+							<xs:element name="carplan" type="xs:string" minOccurs="0" />
+							<xs:element name="especialRequest" type="xs:string" minOccurs="0" />
+							<xs:element name="Item" type="xs:string" minOccurs="0" />
+							<xs:element name="Money" type="xs:decimal" minOccurs="0" />
+							<xs:element name="currTypeCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ExchangeRate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="originalcurrPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ApplyPersonCode" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ApplyBudgetInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ApplySheetHead_Pk" type="xs:int" minOccurs="0" msdata:ReadOnly="true" msdata:AutoIncrement="true" />
+							<xs:element name="BudgetType" type="xs:string" minOccurs="0" />
+							<xs:element name="BudgetMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PlanMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ChangeMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UsedMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ThisMoey" type="xs:decimal" minOccurs="0" />
+							<xs:element name="LeaveMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ReadyPayMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AllowOutMoney" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ApplyCheckRecord">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CheckComment" type="xs:string" minOccurs="0" />
+							<xs:element name="IsPass" type="xs:string" minOccurs="0" />
+							<xs:element name="ApplySheetNo" type="xs:string" minOccurs="0" />
+							<xs:element name="ApplyDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ApplySheetHead_Pk" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								minOccurs="0" />
+							<xs:element name="personCode" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckName" type="xs:string" minOccurs="0" />
+							<xs:element name="IsDisplays" type="xs:int" minOccurs="0" />
+							<xs:element name="DisplaysPersonCode" type="xs:string" minOccurs="0" />
+							<xs:element name="displayName" type="xs:string" minOccurs="0" />
+							<xs:element name="Checkdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FullCheckName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckRole" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckRoleName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

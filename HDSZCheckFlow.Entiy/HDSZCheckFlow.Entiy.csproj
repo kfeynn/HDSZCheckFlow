@@ -1,0 +1,254 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{202F3762-A29C-4B94-B5B1-432CDBF5D65D}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HDSZCheckFlow.Entiy</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HDSZCheckFlow.Entiy</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.ActiveRecord">
+      <Name>Castle.ActiveRecord</Name>
+      <HintPath>..\Resource\Castle.ActiveRecord.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=1.0.1.0, Culture=neutral, PublicKeyToken=154fdcb44c4484fc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resource\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplyProcessType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetAnnex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetBodyBanquet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetBodyEvection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetBodyEvectionCharge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetBodyPay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetBodyPurchase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetCheckRecord.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetHead.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetHeadBudget.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplyTypeInCheckFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetApplySheetBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetApplySheetBudget.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetBudget.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetFinallyPriceCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetFinallyPriceCheckBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseAccountSubject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseBudgetStandard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseCommonCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseCommonRelation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BasecurrencyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseDept.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseEmail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseInvClas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Baseinventory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseNCDept.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BasePerson.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseRunreport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseSubjectInBudgetAllow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BlPersonnelAll.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Budgetaccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BudgetchangeSheet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckFlowInCompanyBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckFlowInCompanyhead.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckFlowInDept.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckPersonInRole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckRole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Log.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OrderDifference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OrderSheet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PageViewState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealMoneyAlterSheet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SmallFixedAssets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SmallFixedAssetsChange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SmallFixedAssetsFlag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

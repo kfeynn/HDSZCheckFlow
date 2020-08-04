@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="BudgetCost" targetNamespace="http://tempuri.org/BudgetCost.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/BudgetCost.xsd" xmlns:mstns="http://tempuri.org/BudgetCost.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="BudgetCostInfo" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="BudgetCostInfoMation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Dispname" type="xs:string" minOccurs="0" />
+							<xs:element name="oneQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="twoQ" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oneH" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PlanMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="localRealCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="costPY" type="xs:string" minOccurs="0" />
+							<xs:element name="costPP" type="xs:string" minOccurs="0" />
+							<xs:element name="unionType" type="xs:int" minOccurs="0" />
+							<xs:element name="oneSeason" type="xs:string" minOccurs="0" />
+							<xs:element name="twoSeason" type="xs:string" minOccurs="0" />
+							<xs:element name="oneHSeason" type="xs:string" minOccurs="0" />
+							<xs:element name="PrintDateInfo" type="xs:string" minOccurs="0" />
+							<xs:element name="PrintTitleInfo" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

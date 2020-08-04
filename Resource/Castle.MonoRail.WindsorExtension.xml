@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.MonoRail.WindsorExtension</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.MonoRail.WindsorExtension.ContainerAccessorUtil">
+            <summary>
+            Uses the HttpContext and the <see cref="T:Castle.Windsor.IContainerAccessor"/> 
+            to access the container instance.
+            </summary>
+        </member>
+        <member name="T:Castle.MonoRail.WindsorExtension.RailsFacility">
+            <summary>
+            Facility responsible for registering the controllers in
+            the tree.
+            </summary>
+        </member>
+        <member name="T:Castle.MonoRail.WindsorExtension.WindsorControllerFactory">
+            <summary>
+            Custom implementation of <see cref="T:Castle.MonoRail.Framework.IControllerFactory"/>
+            that uses the WindsorContainer to obtain the 
+            controller instances.
+            </summary>
+        </member>
+        <member name="T:Castle.MonoRail.WindsorExtension.WindsorFilterFactory">
+            <summary>
+            Custom implementation of <see cref="T:Castle.MonoRail.Framework.Internal.IFilterFactory"/>
+            that uses the WindsorContainer to obtain <see cref="T:Castle.MonoRail.Framework.IFilter"/>
+            instances, and, if not available, uses the default implementation
+            of <see cref="T:Castle.MonoRail.Framework.Internal.IFilterFactory"/>.
+            </summary>
+        </member>
+    </members>
+</doc>

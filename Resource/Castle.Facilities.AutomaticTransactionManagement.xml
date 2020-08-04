@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.Facilities.AutomaticTransactionManagement</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.Facilities.AutomaticTransactionManagement.TransactionComponentInspector">
+            <summary>
+            Summary description for TransactionComponentInspector.
+            </summary>
+        </member>
+        <member name="T:Castle.Facilities.AutomaticTransactionManagement.TransactionInterceptor">
+            <summary>
+            Summary description for TransactionInterceptor.
+            </summary>
+        </member>
+    </members>
+</doc>

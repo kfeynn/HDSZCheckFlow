@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdPurchaseOrder" targetNamespace="http://tempuri.org/XsdPurchaseOrder.xsd"
+	elementFormDefault="qualified" xmlns="http://tempuri.org/XsdPurchaseOrder.xsd" xmlns:mstns="http://tempuri.org/XsdPurchaseOrder.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="OrderHead">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="xs:int" />
+				<xs:element name="OrderNo" type="xs:string" />
+				<xs:element name="OrderDate" type="xs:dateTime" />
+				<xs:element name="IsKeep" type="xs:int" />
+				<xs:element name="MakerCode" type="xs:string" />
+				<xs:element name="Name" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="v_BaseApplyPurchase">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ApplySheetNo" type="xs:string" minOccurs="0" />
+				<xs:element name="InventoryCode" type="xs:string" minOccurs="0" />
+				<xs:element name="ApplyProcessCode" type="xs:string" minOccurs="0" />
+				<xs:element name="ApplyTypeName" type="xs:string" minOccurs="0" />
+				<xs:element name="invName" type="xs:string" minOccurs="0" />
+				<xs:element name="Name" type="xs:string" minOccurs="0" />
+				<xs:element name="DeptName" type="xs:string" minOccurs="0" />
+				<xs:element name="ApplyDate" type="xs:dateTime" minOccurs="0" />
+				<xs:element name="MEASNAME" type="xs:string" minOccurs="0" />
+				<xs:element name="INVTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+				<xs:element name="ApplySheetHead_Pk" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+					minOccurs="0" />
+				<xs:element name="Number" type="xs:decimal" minOccurs="0" />
+				<xs:element name="Money" type="xs:decimal" minOccurs="0" />
+				<xs:element name="RMBPrice" type="xs:decimal" minOccurs="0" />
+				<xs:element name="originalcurrPrice" type="xs:decimal" minOccurs="0" />
+				<xs:element name="currTypeCode" type="xs:string" minOccurs="0" />
+				<xs:element name="subjectCode" type="xs:string" minOccurs="0" />
+				<xs:element name="Dispname" type="xs:string" minOccurs="0" />
+				<xs:element name="DeliveryDate" type="xs:string" minOccurs="0" />
+				<xs:element name="Memo" type="xs:string" minOccurs="0" />
+				<xs:element name="DeptCode" type="xs:string" minOccurs="0" />
+				<xs:element name="ApplyDeptClassCode" type="xs:string" minOccurs="0" />
+				<xs:element name="IsOrder" type="xs:int" minOccurs="0" />
+				<xs:element name="orderDate" type="xs:dateTime" minOccurs="0" />
+				<xs:element name="OrderNo" type="xs:string" minOccurs="0" />
+				<xs:element name="IsGiveup" type="xs:int" minOccurs="0" />
+				<xs:element name="ApplySheetBody_Purchase_pk" msdata:ReadOnly="true" msdata:AutoIncrement="true"
+					type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

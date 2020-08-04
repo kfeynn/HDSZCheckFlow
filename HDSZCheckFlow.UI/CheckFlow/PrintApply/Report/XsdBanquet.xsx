@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--此文件由 XML 架构设计器自动生成。它包含设计器表面组件的布局信息。-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="0" viewPortTop="-894" zoom="100">
+    <ApplyCheckRecord_XmlElement left="16087" top="5450" width="6773" height="7620" selected="0" zOrder="1" index="0" expanded="1" />
+    <ApplyBudgetInfo_XmlElement left="15902" top="318" width="6508" height="5080" selected="0" zOrder="2" index="1" expanded="1" />
+    <BaseApplyBanquet_XmlElement left="2037" top="106" width="9525" height="14393" selected="0" zOrder="4" index="2" expanded="1" />
+</XSDDesignerLayout>

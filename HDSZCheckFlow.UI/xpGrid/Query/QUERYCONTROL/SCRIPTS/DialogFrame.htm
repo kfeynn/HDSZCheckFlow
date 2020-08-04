@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<META NAME="GENERATOR" Content="Microsoft Visual Studio 7.0">
+		<TITLE>操作设置</TITLE>
+		<script language="javascript">
+<!--
+	 
+	var s = window.dialogArguments;
+	var url = s[0];
+	var Parameters =s[1];
+	//fraMain.src="http://localhost";
+
+	function Load()
+	{ 
+		window.open(url,"fraMain");
+	}
+	 
+	 var sec=0;
+	function TimeCounter()
+	 {
+		sec=sec+1;	
+		if(sec>=480){window.close();};
+		window.setTimeout("TimeCounter();",1000); 
+	  }
+	function ReSetCounter()
+	  {
+	    sec=0;
+	  }
+				  
+	 /*开始计时*/
+	  window.setTimeout("TimeCounter();",1000); 
+//-->
+		</script>
+	</HEAD>
+	<frameset cols="100%" rows="100%" onload="Load();" >
+		<frame name="fraMain">
+	</frameset>	
+	
+</HTML>

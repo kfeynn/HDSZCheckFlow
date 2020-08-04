@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--此文件由 XML 架构设计器自动生成。它包含设计器表面组件的布局信息。-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="0" viewPortTop="4202" zoom="100">
+    <ApplyBudgetInfo_XmlElement left="14367" top="7118" width="7832" height="5080" selected="0" zOrder="1" index="0" expanded="1" />
+    <ApplyCheckRecord_XmlElement left="15240" top="-106" width="7144" height="7197" selected="0" zOrder="2" index="1" expanded="1" />
+    <BaseApplyEvection_XmlElement left="2143" top="-662" width="9948" height="15664" selected="0" zOrder="4" index="2" expanded="1" />
+    <EvectionCharge_XmlElement left="12409" top="11510" width="11483" height="5927" selected="0" zOrder="6" index="3" expanded="1" />
+</XSDDesignerLayout>

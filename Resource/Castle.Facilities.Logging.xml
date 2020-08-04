@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.Facilities.Logging</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.Facilities.Logging.LoggerImplementation">
+            <summary>
+            The supported <see cref="T:Castle.Services.Logging.ILogger"/> implementations
+            </summary>
+        </member>
+        <member name="T:Castle.Facilities.Logging.LoggingFacility">
+            <summary>
+            A facility for logging support.
+            
+            TODO: Document its inner working and configuration scheme
+            </summary>
+        </member>
+        <member name="M:Castle.Facilities.Logging.LoggingFacility.ReadConfigurationAndCreateLoggerFactory">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

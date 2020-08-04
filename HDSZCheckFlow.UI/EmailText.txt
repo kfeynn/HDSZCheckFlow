@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题 1</title>
+<style type="text/css">
+body{
+	font: 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+	/*background-color:#444;*/
+	background-color:#FFFFCC;
+	
+	margin:0;
+}
+
+#header {
+margin: 0 auto 10px;
+padding: 0;
+width: 100%;
+position: relative;
+color:#BBB;
+}
+
+h1{
+margin:10px 0 0 0;
+height:63px;
+background-image:url('logo.gif');
+background-repeat:no-repeat;
+}
+
+h1 span{
+	display:none;
+}
+#topMenu{
+margin:0;
+padding:0;
+position:absolute;
+list-style-type:none;
+right:10px;
+top:50px;
+}
+
+#topMenu li{
+	float:left;
+	border-left:1px white solid;
+}
+
+
+#topMenu li a{
+	padding:0 10px;
+	color:white;
+	text-decoration:none;
+}
+
+#topMenu li a:hover{
+background-color:#000;
+}
+
+
+#topMenu li.firstChild{
+	border:none;
+}
+
+.clearBoth{
+	clear:both;
+}
+
+#mainMenu-outer-wrapper{
+background-color:#ccc;
+background-image:url('main-menu-top.gif');
+background-repeat:no-repeat;
+padding-top:3px;
+margin-top:10px;
+}
+
+#mainMenu-inner-wrapper{
+background-image:url('main-menu-bottom.gif');
+background-repeat:no-repeat;
+background-position:bottom;
+padding-bottom:7px;
+}
+
+
+#mainMenu{
+width:500px;
+padding:0;
+margin:0;
+color:#000;
+}
+
+#mainMenu li{
+	float:left;
+	list-style-type:none;
+	border-left:1px #aaa solid;
+	border-right:1px #eee solid;
+}
+
+#mainMenu li.firstChild{
+	border-left:none;
+}
+#mainMenu li.lastChild{
+	border-right:none;
+}
+
+
+#mainMenu li a{
+display:block;
+padding:5px 9px;
+color:#333;
+text-decoration:none;
+border:1px solid blue;
+}
+
+#mainMenu li a:hover{
+background-color:#eee;
+}
+
+#searchBox{
+	float:right;
+	margin-top:5px;
+}
+
+#searchBox #submit {
+background: transparent;
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+#searchBox form,
+#searchBox input.textfield,
+#searchBox button {
+margin: 0;
+padding: 0;
+}
+
+#container{
+margin: 0 auto;
+padding: 0;
+/*width: 758px;*/
+width: 80%;
+position: relative;
+/*background:#333 url('background-2-cols.gif') repeat-y;*/
+background:#FFFFFF;
+}
+
+#content{
+	width:521px;
+	float:left;
+	background:transparent  url('cap_content.gif') no-repeat;
+	padding:0px 20px 0px;
+}
+
+#content #depthPath{
+margin:5px 0 0 0;
+padding: 0;
+}
+
+#content #depthPath li{
+	display:inline;
+}
+
+
+#content #depthPath li a{
+	color:#000;
+}
+
+#content h2{
+	margin:0px;
+	font-size:25px;
+	font-family:黑体;
+}
+
+#content h3{
+	margin:5px -10px;
+	padding:2px 10px 0;
+	font-size:16px;
+	font-weight:normal;
+	font-family:黑体;
+	border-bottom:1px #ccc solid;
+	background-color:#ECECEC;
+}
+
+#content h4{
+	color:green;
+	margin-bottom:0px;
+}
+
+#content p{
+	text-indent:2em;
+}
+
+#content ul{
+	margin:0px;
+	padding:0;
+	list-style-image:url(http://learning.artech.cn/uploads/blog-images/research-css/dot.png);
+	list-style-position:inside;
+}
+
+#sideBar{
+	width:187px;
+	float:right;
+	/*background:transparent  url('cap_sideBar.gif') no-repeat;*/
+	 
+	padding:13px 2px 0px;
+}
+
+#sideBar h3{
+	margin:-5px 10px 0 10px;
+	 
+	font-size:13px;
+}
+#sideBar ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#sideBar ul li{
+border-top:1px #555 solid;
+font-size:11px;
+line-height:2em;
+}
+
+#sideBar li a{
+display:block;
+ 
+padding:0px 20px;
+text-decoration:none;
+height:1%;
+}
+
+#sideBar li a:hover{
+	/*background-color:#6E6E6E;*/
+}
+
+#footer{
+clear:both;
+/*background:#FF3300 no-repeat;*/
+padding-top:15px;
+}
+
+#footer #copyRight{
+	color:#999;
+	padding:10px 100px 20px 20px;
+}
+#footer a{
+color:#ccc;
+}
+
+#footer a:hover{
+	background-color:#000;
+}
+
+.alignLeft{
+	margin:10px 20px 0 0;
+	width:140px;
+	float:left;
+}
+
+.alignRight{
+	float:right;
+}
+.bulletBoard{
+	width:160px;
+	float:right;
+	padding:0;
+	margin:0;
+}
+
+.bb-head{
+	/*background:transparent url('bb_head_left.gif') no-repeat;*/
+	padding:0 0 0 10px;
+	margin:0;
+}
+
+#content .bb-head h3{
+	background:transparent url('bb_head_right.gif') no-repeat right top;
+	padding:2px 0 0 0;
+	margin:0;
+	border:none;
+	color:#FFF;
+	font-family:宋体;
+	font-size:12px;
+}
+
+#content .bb-body{
+	background:transparent url('bb_right.gif') no-repeat right bottom;
+	padding:10px 10px 10px 0;
+	margin:0 0 0 10px;
+}
+
+
+#content .bb-body a{
+	text-decoration:none;
+	color:green;
+}	
+
+#content .bb-body a:hover{
+	color:#996666;
+	background-color:#99FF99;
+}	
+
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<h1><span>前沿视频教室</span></h1><!--
+<div id="mainMenu-outer-wrapper">
+<div id="mainMenu-inner-wrapper">
+	<ul id="mainMenu">
+		<li class="firstChild"><a href="#">教室首页</a></li
+	</ul>
+	<div class="clearBoth"></div>	
+</div>
+</div>>-->
+</div>
+
+<div id="container">
+  <div id="content">
+  <ul id="depthPath">
+	<li></li>
+  </ul>
+  <h2>核心原理、技巧与设计实战</h2>
+  <div id="contentBody">
+  
+<img class="alignLeft"  style="background:#3366CC"   />
+  
+<p> “学习最新的CSS技术，创建全新的用户体验，发挥设计师的无限创意！”</p>
+
+
+
+
+<ul>
+<li>彻底理解CSS的布局原理</li>
+<li>设计灵活的多列布局</li>
+<li>创建纯CSS实现的导航菜单</li>
+<li>设计最新的网页元素样式</li>
+<li>打破死板的布局方式</li>
+<li>探寻跨浏览器的兼容方案</li>
+</ul>
+
+
+<h3 >内容概述</h3>
+
+<p>本书是一本深入研究和揭示CSS设计技术的书籍。本书在透彻地讲解CSS核心技术的基础上，深入到各个实际应用领域中，充分向读者演示了如何使用CSS的各项技术，实现令人眩目的网页布局和效果。</p>
+
+<p>本书详细介绍了CSS核心基础、盒子模型等知识，力求把道理和方法讲清楚，采用了“探索式”的讲解方法，对于一个问题，例如标准流、浮动、定位等规律，均通过一系列动手实验，使读者自己就能够非常自然地得出结论，使读者不但知其然，而且还知其所以然。</p>
+
+<p>在本书中对设计中常用的网页元素和布局方式都给出详细的分类和归纳，并讲解了完整的解决方法，主要包括各种导航菜单（水平的、竖直的、固定宽度的、自适应宽度的、下拉的等），Tab面板、伸缩面板和折叠面板，以及各种形式的分列布局（固定宽度的、变化宽度的、固定宽度与变化宽度结合的），等等。这样读者在理解了方法的基础上，可以直接将案例用在自己的设计中的，只需要按照所需进行修改即可。</p>
+
+<h3 >本书中可以学到的内容</h3>
+
+<h4>part 1 ： CSS的魅力</h4>
+
+<p>读者可以看到CSS能够给网页设计带来的眩目效果，并且充分了解(X)HTML和CSS相关的核心基础知识。</p>
+
+<h4>part 2 ： 核心基石</h4>
+
+<p>然后读者将会深入了解CSS的核心机制——盒子模型，它也是CSS布局的最核心的基础；接着学习CSS布局的重点和难点——浮动和定位；然后通过对文字和图像的排版，看到很多有趣的应用。</p>
+
+<h4>part 3 ： 链接与菜单</h4>
+
+<p>接下来，针对超连接，将进行深入的讲解，可以看到很多非常神奇的链接和菜单效果。</p>
+
+<h4>part 4： 神奇的表格</h4>
+
+<p>HTML中的表格非常呆板，而使用CSS对他进行修饰以后，效果就完全不同了，通过制作复杂的多模式日历，读者会看到这里面的奥秘。</p>
+
+<h4>part 5： 多彩的圆角设计</h4>
+
+<p>圆角框看起来简单，实际上区有着很丰富多彩的变化，本书深入讲解了制作圆角框的多种方法，深入分析了不同方法的特点和使用范围。</p>
+
+<h4 >part 6 ：高级网页元素</h4>
+
+<p>近年出现的很多全新的网页元素，例如Tab面板、折叠面板、伸缩面板等等，这些元素大大改善了用户的体验，本书将介绍设计这些元素的方法。</p>
+
+<br/>
+  </div>
+  
+  </div>
+  <div id="sideBar">
+  <h3>网站入口</h3>
+  <ul>
+		<li><a href="#"></a></li>
+		<li><a href="http://192.168.2.21/budget" target="_blank">预算审批系统</a></li>
+		
+		
+  </ul>
+  
+  </div>
+
+<div id="footer">
+<div id="copyRight">
+Copyright ? 2008 Artech Co. Ltd. <br />
+<a href="">All rights reserved.</a>
+Your use of the <a href="">Artech Classroom</a> including the download of software, submission of comments, ideas, feature requests and techniques, and Artech's rights to use such submitted materials, is governed by the Artech s Terms of Use and the 
+<a href="">Artech Privacy Policy</a>.
+</div>
+</div>
+
+</div>
+
+
+</body>
+
+</html>

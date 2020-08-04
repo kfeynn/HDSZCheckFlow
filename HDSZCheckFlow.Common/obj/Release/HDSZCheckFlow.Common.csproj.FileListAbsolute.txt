@@ -1,0 +1,14 @@
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\HDSZCheckFlow.Common.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Castle.ActiveRecord.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Castle.Model.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\HDSZCheckFlow.Entiy.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\log4net.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\NHibernate.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Iesi.Collections.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Nullables.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Castle.DynamicProxy.dll
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Castle.Model.xml
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Castle.ActiveRecord.xml
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\bin\Release\Castle.DynamicProxy.xml
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\obj\Release\ResolveAssemblyReference.cache
+C:\Data\E盘\Finance2008\HDSZCheckFlow\HDSZCheckFlow.Common\obj\Release\HDSZCheckFlow.Common.dll

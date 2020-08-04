@@ -1,0 +1,1 @@
+<%@ WebHandler language="C#" Class="HDSZCheckFlow.UI.BaseData.Commons.MyHandleRequest" codebehind="MyHandleRequest.ashx.cs" %>

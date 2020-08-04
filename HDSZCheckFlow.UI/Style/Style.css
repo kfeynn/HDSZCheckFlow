@@ -1,0 +1,900 @@
+
+BODY {
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	PADDING-TOP: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	PADDING-RIGHT: 0px; 
+	BORDER-TOP: 0px; 
+	BORDER-RIGHT: 0px; 
+	BORDER-LEFT: 0px; 
+	BORDER-BOTTOM: 0px;
+	SCROLLBAR-FACE-COLOR: #F2FBED; 
+	SCROLLBAR-SHADOW-COLOR: #F2FBED; 
+	SCROLLBAR-3DLIGHT-COLOR: #F2FBED; 
+	BACKGROUND-COLOR: #F2FBED
+}
+/* 
+原来底色#cbdced
+*/
+body,td,th 
+{
+	font-size: 12px;
+	FONT-FAMILY: "宋体";
+}
+.pagenet
+{
+	background-color:#F3EBc0;
+}
+
+
+.ComputeField
+{
+	border-right: #003c74 1px solid;
+	padding-right: 3px;
+	border-top: #003c74 1px solid;
+	padding-left: 3px;
+	font-size: 9pt;
+	padding-bottom: 0px;
+	margin: 1px 0px 0px;
+	vertical-align: middle;
+	border-left: #003c74 1px solid;
+	color: darkorange;
+	padding-top: 0px;
+	border-bottom: #003c74 1px solid;
+	font-family: 宋体, Arial, Sans-Serif;
+	background-color: lightsteelblue;
+}
+
+.ReadOnlyTextbox
+{
+	border-right: #003c74 1px solid;
+	padding-right: 3px;
+	border-top: #003c74 1px solid;
+	padding-left: 3px;
+	font-size: 9pt;
+	padding-bottom: 0px;
+	margin: 1px 0px 0px;
+	vertical-align: middle;
+	border-left: #003c74 1px solid;
+	color: sienna;
+	padding-top: 0px;
+	border-bottom: #003c74 1px solid;
+	font-family: 宋体, Arial, Sans-Serif;
+	background-color: lightgrey;
+}
+.FindTextbox
+{
+	border-right: #003c74 1px solid;
+	padding-right: 3px;
+	border-top: #003c74 1px solid;
+	padding-left: 3px;
+	font-size: 9pt;
+	padding-bottom: 0px;
+	margin: 1px 0px 0px;
+	vertical-align: middle;
+	border-left: #003c74 1px solid;
+	color: saddlebrown;
+	padding-top: 0px;
+	border-bottom: #003c74 1px solid;
+	font-family: 宋体, Arial, Sans-Serif;
+	background-color: lemonchiffon;
+}
+.ButtonFlat
+{
+    border:solid 1px #F0F0F0;
+	background-image:url(../Style/images/btnBg.gif);
+	color:#000000; 
+	background-color: #333333; 
+	font-size: 9pt; 
+	height:24px;
+	padding-top: 2px; 
+	cursor:hand;
+}
+
+
+p
+{
+  line-height: 1.1em;
+}
+H1
+{
+  font-size: medium;
+  color: navy;
+  margin: 3px;
+  line-height: 110%;
+}
+H2
+{
+  font-size: medium;
+}
+H3
+{
+  font-size: medium;
+}
+A
+{
+  color: #000080;
+}
+A:hover
+{
+  color: red;
+}
+
+
+.Grid
+{
+  border: 0px solid white;
+}
+.Grid TD
+{
+  font-size: 9pt;
+}
+
+.GridColumnHeading
+{
+	border-right: aliceblue 1px solid;
+	padding-right: 2px;
+	border-top: aliceblue 1px solid;
+	padding-left: 2px;
+	font-weight: bold;
+	font-size: 9pt;
+	vertical-align: middle;
+	border-left: aliceblue 1px solid;
+	cursor: hand;
+	color: white;
+	border-bottom: aliceblue 1px solid;
+	height: 26px;
+	background-color: #6699cc;
+	text-align: center;
+}
+.GridColumnHeading A
+{
+border-right: aliceblue 1px;
+padding-right: 2px;
+border-top: aliceblue 1px;
+padding-left: 2px;
+font-weight: bold;
+font-size: 9pt;
+vertical-align: middle;
+border-left: aliceblue 1px;
+cursor: hand;
+color: white;
+border-bottom: aliceblue 1px;
+background-color: #6699cc;
+text-align: center;
+text-decoration: none;
+}
+.GridColumnTitle
+{
+}
+.CssClassGrid
+{
+	border-right: #cccccc thin solid;
+	border-top: #cccccc thin solid;
+	border-left: #cccccc thin solid;
+	border-bottom: #cccccc thin solid;
+}
+
+.CssClassGridPager
+{
+	border-right: green 0px solid;
+	padding-right: 3px;
+	border-top: green 0px solid;
+	padding-left: 3px;
+	font-size: 9pt;
+	padding-bottom: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	border-left: green 0px solid;
+	color: black;
+	padding-top: 0px;
+	border-bottom: green 0px solid;
+	font-style: italic;
+	text-align: left;
+}
+
+.GridColumnHeadingLeft
+{
+  padding-right: 2px;
+  padding-left: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: #6699CC;
+  text-align: left;
+  vertical-align: middle;
+}
+
+A.GridColumnHeadingLink
+{
+  color: white;
+  font-family: 宋体, Arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+A.GridColumnHeadingLink:hover
+{
+  color: yellow;
+  text-decoration: underline;
+}
+
+.GridRow
+{
+}
+
+.GridAlternatingRow
+{
+  background-color: #DDE7F2;
+}
+
+.GridCheckedRow
+{
+  background-color: #ffffcc;
+}
+
+.GridAlternatingCheckedRow
+{
+  background-color: #ccffcc;
+}
+
+.GridSelectedRow
+{
+  background-color: #FFFFA0;
+}
+.FormSelectedRow
+{
+	background-color: silver;
+}
+
+.GridMouseOverRow
+{
+  background-color: #9FFFA0;
+}
+
+.GridItemCell
+{
+  border-right: green 0px solid;
+  padding-right: 3px;
+  border-top: green 0px solid;
+  padding-left: 3px;
+  font-size: 9pt;
+  padding-bottom: 0px;
+  margin: 0px;
+  vertical-align: middle;
+  border-left: green 0px solid;
+  color: black;
+  padding-top: 0px;
+  border-bottom: green 0px solid;
+  text-align: left;
+  height:20px;
+}
+
+.GridItemCellRight
+{
+  padding-left: 3px;
+  font-size: 9pt;
+  padding-bottom: 0px;
+  margin: 0px;
+  vertical-align: middle;
+  color: black;
+  padding-top: 0px;
+  text-align: right;
+  padding-right: 3px;
+}
+
+.LabelCell
+{
+ padding-left: 33px;
+ vertical-align: middle;
+}
+
+.ControlCell
+{
+ padding-left: 33px;
+ vertical-align: middle;
+} 
+
+.EditZoneTable
+{
+ padding-left: 33px;
+ vertical-align: middle;
+}
+
+.InputButton
+{
+  border-right: #003c74 1px solid;
+  border-top: #003c74 1px solid;
+  font-size: 12px;
+  margin-bottom: 1px;
+  vertical-align: middle;
+  border-left: #003c74 1px solid;
+  color: white;
+  border-bottom: #003c74 1px solid;
+  font-family: 宋体, Arial, Sans-Serif;
+  background-color: #6699cc;
+  vertical-align: middle;
+}
+.InputButtonDisable
+{
+	border-right: #003c74 1px solid;
+	border-top: #003c74 1px solid;
+	font-size: 12px;
+	margin-bottom: 1px;
+	vertical-align: middle;
+	border-left: #003c74 1px solid;
+	color: silver;
+	border-bottom: #003c74 1px solid;
+	font-family: 宋体, Arial, Sans-Serif;
+	background-color: #6699cc;
+}
+
+.TextBox
+{
+  border-right: #003c74 1px solid;
+  padding-right: 3px;
+  border-top: #003c74 1px solid;
+  padding-left: 3px;
+  font-size: 9pt;
+  padding-bottom: 0px;
+  margin: 1px 0px 0px;
+  border-left: #003c74 1px solid;
+  color: black;
+  padding-top: 0px;
+  border-bottom: #003c74 1px solid;
+  font-family: 宋体, Arial, Sans-Serif;
+  vertical-align: middle;
+}
+
+.CheckBox
+{
+  vertical-align: middle;
+}
+
+.Checkbox INPUT
+{
+  font-family: 宋体, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size:9pt;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+
+.DropDownList
+{
+  border-right: #003c74 1px solid;
+  padding-right: 3px;
+  border-top: #003c74 1px solid;
+  padding-left: 3px;
+  font-size: 9pt;
+  padding-bottom: 0px;
+  margin: 1px 0px 0px;
+  border-left: #003c74 1px solid;
+  color: black;
+  padding-top: 0px;
+  border-bottom: #003c74 1px solid;
+  font-family: 宋体, Arial, Sans-Serif;
+  vertical-align: middle;
+}
+
+.ErrorLabel
+{
+  color: Red;
+}
+
+.HorizontalRule
+{
+  border-right: 0px solid;
+  border-top: 1px solid;
+  border-left: 0px solid;
+  border-bottom: 0px solid;
+  color: #6699CC;
+  height: 1px;
+}
+
+.ToolbarContainer
+{
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#DDEEFF' ,endColorStr= '#6699CC' ,gradientType= '0' );
+  color: White;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  background-color: #6699CC;
+}
+.Toolbar
+{
+  font-family: 宋体, Helvetica, Sans-Serif;
+  color: black;
+  background-color: transparent;
+}
+.ToolbarButtonCell
+{
+  font-size: 9pt;
+  color: white;
+  padding-bottom: 0px;
+  vertical-align: middle;
+  padding-top: 0px;
+}
+.ToolbarSeparatorCell
+{
+  vertical-align: middle;
+  font-family: 宋体, Helvetica, Sans-Serif;
+  color: Black;
+  background-color: Transparent;
+}
+.ToolbarImage
+{
+  border: none;
+  vertical-align: middle;
+}
+.ToolbarLink
+{
+  font-size: 9pt;
+  color: white;
+  border-right: lightgrey 0px solid;
+  border-top: lightgrey 0px solid;
+  border-left: lightgrey 0px solid;
+  border-bottom: lightgrey 0px solid;
+  font-family: 宋体, Arial, Sans-Serif;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 2px 2px 2px 2px;
+}
+.ToolbarLink:hover
+{
+  font-size: 9pt;
+  color: white;
+  border-right: lightgrey 1px solid;
+  border-top: lightgrey 1px solid;
+  border-left: lightgrey 1px solid;
+  border-bottom: lightgrey 1px solid;
+  font-family: 宋体, Arial, Sans-Serif;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 1px 1px 1px 1px;
+}
+.ToolbarLabel
+{
+  font-size: 9pt;
+  color: white;
+  background-color: transparent;
+  vertical-align: middle;
+}
+.ToolbarTextBox
+{
+  font-size: 9pt;
+  color: black;
+  font-family: 宋体, Arial, Sans-Serif;
+  text-decoration: none;
+  background-color: white;
+  vertical-align: middle;
+}
+.ToolbarButton
+{
+  font-size: 9pt;
+  color: black;
+  font-family: 宋体, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.ToolbarCheckbox
+{
+  color: white;
+  font-family: 宋体, Arial, Sans-Serif;
+  text-decoration: none;
+  background-color: transparent;
+  vertical-align: middle;
+  font-size: 9pt;
+}
+.ToolbarCheckbox INPUT
+{
+  color: white;
+  font-family: 宋体, Arial, Sans-Serif;
+  text-decoration: none;
+  background-color: transparent;
+  vertical-align: middle;
+  font-size: 9pt;
+}
+
+.RadioButton
+{
+  border-right: #003c74 1px;
+  padding-right: 0px;
+  border-top: #003c74 1px;
+  padding-left: 0px;
+  font-size: 9pt;
+  padding-bottom: 0px;
+  margin: 0px;
+  border-left: #003c74 1px;
+  color: black;
+  padding-top: 0px;
+  border-bottom: #003c74 1px;
+  font-family: 宋体, Arial, Sans-Serif;
+}
+
+.QueryDiv
+{
+	border-right: thin inset;
+	border-top: thin inset;
+	border-left: thin inset;
+	border-bottom: thin inset;
+	background-color: silver;
+}
+
+.coolMenu {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 2px outset; FONT-SIZE: 9pt; VISIBILITY: hidden; BORDER-LEFT: buttonhighlight 2px outset; WIDTH: 1px; BORDER-BOTTOM: buttonshadow 1px solid; POSITION: absolute; HEIGHT: 1px; BACKGROUND-COLOR: menu
+}
+.coolMenu .coolMenuItem {
+	PADDING-RIGHT: 10px; MARGIN: 1px; OVERFLOW: hidden; CURSOR: hand; HEIGHT: 20px
+}
+.coolMenu .coolMenuItem IMG {
+	MARGIN-LEFT: 1px; VERTICAL-ALIGN: middle; MARGIN-RIGHT: 6px
+}
+.coolMenu .coolMenuItem .coolMenuMore {
+	FONT-FAMILY: webdings
+}
+.coolMenu .coolMenuDivider {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: buttonshadow 1px inset; MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; MARGIN-LEFT: 2px; OVERFLOW: hidden; BORDER-LEFT: 1px inset; BORDER-BOTTOM: buttonhighlight 1px inset; HEIGHT: 2px
+}
+.sinput {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 9pt; BORDER-LEFT: 0px; WIDTH: 15pt; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: 宋体,Arial; HEIGHT: 12pt
+}
+.GridColumnData
+{
+	
+}
+.cdata {
+	PADDING-RIGHT: 3px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; OVERFLOW: hidden; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid; WHITE-SPACE: nowrap
+}
+
+/*****************************************************/
+.nbFlybar
+{
+	HEIGHT:1.0em;  
+	CURSOR:hand;
+	FONT-SIZE:12px;
+	FONT-FAMILY:宋体,Arial,sans-serif;
+	PADDING:2px;
+	BACKGROUND-COLOR:menu;
+	BORDER-STYLE:solid;
+	BORDER-WIDTH:0px;
+	BORDER-COLOR:threedhighlight threedshadow threedshadow threedhighlight;
+	WIDTH:100%;
+}
+.nbTableMain
+{
+	width:100%;
+	table-layout:fixed;
+}
+.nbTable
+{
+	FONT-SIZE:12px;
+	FONT-FAMILY:宋体,Arial,sans-serif;
+	width:100%;
+	overflow:scroll;
+	height:100%;
+}
+.treeOFLOW
+{
+	overflow:hidden;
+	text-align:center;
+}
+.treeBrand
+{
+	background-color:FFFFCE;
+}
+.cbSubmenu
+{
+    FONT-FAMILY:宋体,Arial,sans-serif;
+    FONT-SIZE: 12px;   
+    COLOR: menutext;
+}
+.cbSubmenuItem
+{
+    COLOR: buttontext;
+    CURSOR: hand;
+    PADDING-RIGHT: 8px;
+    TEXT-DECORATION: none; 
+    WIDTH: 100%
+}
+.cbSubmenu IMG
+{
+    BORDER-STYLE:none
+}
+.cbSubmenuItem A:hover
+{
+    BACKGROUND-COLOR: ##EFF7FE;
+    COLOR: highlighttext
+}
+.cbSubmenuItem:hover
+{
+    BACKGROUND-COLOR: #DDF3FF;
+    COLOR: #003366
+}
+.cbSubmenuItem SPAN
+{
+    FONT-FAMILY:宋体,Arial,sans-serif;
+    FONT-SIZE: 12px;
+    MARGIN: 10px;
+    PADDING-BOTTOM: 3px;
+    PADDING-LEFT: 3px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 5px
+}
+
+.Loading{
+	BORDER-RIGHT: #708faf 1px solid; 
+	BORDER-TOP: #ffffff 1px solid; 
+	BORDER-LEFT: #fffff 1px solid; 
+	BORDER-BOTTOM:#708faf 1px solid; 
+    Z-INDEX: 3; LEFT: 210px; 
+    WIDTH: 244px; 
+    POSITION: absolute; TOP: 154px; 
+    HEIGHT: 40px;
+    font-size:12px;
+    font-weight:bold;
+    BACKGROUND-COLOR:  #F2FBED
+    
+}
+
+
+
+.Font12BlackBold
+{
+	font-weight:bold;
+	color:#000000;
+	FONT-FAMILY: 宋体;
+}
+
+.FrameTable
+{
+	BORDER-RIGHT: #708faf 1px solid; 
+	BORDER-TOP: #ffffff 1px solid; 
+	BORDER-LEFT: #ffffff 1px solid; 
+	BORDER-BOTTOM: #708faf 1px solid; 
+	BACKGROUND-COLOR: #F2FBED; 
+}
+
+.MenuTables
+{
+	BORDER-RIGHT: #708faf 1px solid; 
+	BORDER-TOP: #ffffff 1px solid; 
+	BORDER-LEFT: #ffffff 1px solid; 
+	BORDER-BOTTOM: #708faf 1px solid; 
+	BACKGROUND-COLOR: #F2FBED; 
+}
+.MenuTables1
+{
+	border-style:inset;
+	BORDER-RIGHT: #708faf 1px solid; 
+	BORDER-TOP: #708faf 1px solid; 
+	BORDER-LEFT: #708faf 1px solid; 
+	BORDER-BOTTOM: #708faf 1px solid; 
+	BACKGROUND-COLOR: #F2FBED; 
+}
+.menuLine
+{
+	background-color: #F2FBED;
+	height:0px;
+}
+
+.TdOut 
+{
+	border: 1px solid  #F2FBED;
+}
+
+.TdOver 
+{
+	
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #FFFFFF;
+	cursor: default;
+	color:Blue;
+	
+}
+.TdDown {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-left-color: #999999;
+	cursor: default;
+}
+
+.Line 
+{
+    border-left: 1px solid threedshadow;
+}
+.FrameTable1
+{
+   border-right:#454544 1px solid;
+   border-left: #ffffff 1px solid;
+   border-top:#ffffff 1px solid;
+   border-bottom:#454544 1px solid;
+   BACKGROUND-COLOR:  #F2FBED;
+}
+
+.headtd
+{
+	border: 0px inset; 
+	cursor: hand;
+	width:100%;
+	BORDER-RIGHT: #708faf 1px solid; 
+	BORDER-TOP: #ffffff 1px solid; 
+	BORDER-LEFT: #ffffff 1px solid; 
+	BORDER-BOTTOM: #708faf 1px solid; 
+	BACKGROUND-COLOR:  #F2FBED;
+	font-size: 9pt}
+	
+
+/*
+流程
+*/
+Table.Flow
+{
+	background-color:#dddddd;
+	padding:1px;
+}
+Table.Flow TH
+{
+}
+Table.Flow TD
+{
+	background-color:#F3EBc0;
+}
+
+.foucusDiv
+{
+	background-color:Red;
+}
+/*
+通用列表
+*/
+Table.List
+{
+	width:100%;
+	background-color:#000000;
+}
+Table.List TH
+{
+	height:25px;
+	background-color:#ead542;
+}
+Table.List Td
+{
+
+ height:25px;
+}
+
+.listTd
+{
+	 background-color:#dce232;
+}
+.PagerFirst
+{
+	background-image:url(../img/firstBtn.gif);
+	background-color: transparent;
+	width:50;
+	height:20;
+	border:0px;	
+}
+.TableSearch2
+{
+	border-color:#808080;
+	border-style:solid;
+	border-width:1px;
+	width:100%;
+	background-color:#f3f3f3;
+}
+.tdButtonBar
+{
+	background:url("../Style/Images/bgcolor01.jpg");
+	height:24px;
+	padding-left:8px;
+}
+.tdButtonBar2
+{
+	background:url("../Style/Images/bgcolor02.jpg");
+	height:22px;
+	padding-left:8px;
+}
+.Pagerpre
+{
+	background-image:url(../img/preBtn.gif);
+	background-color: transparent;
+	width:50;
+	height:20;
+	border:0px;	
+}
+.PagerNext
+{
+	background-image:url(../img/NextBtn.gif);
+	background-color: transparent;
+	width:50;
+	height:20;
+	border:0px;	
+}
+.PagerLast
+{
+	background-image:url(../img/LastBtn.gif);
+	background-color: transparent;
+	width:50;
+	height:20;
+	border:0px;	
+}
+.TD 
+{
+	FONT-SIZE: 12px
+}
+.frm
+ {
+	BORDER-RIGHT: #0066cc 1px solid; BORDER-TOP: #0066cc 1px solid; BORDER-LEFT: #0066cc 1px solid; BORDER-BOTTOM: #0066cc 1px solid
+ }
+  .TxtCenter
+ {
+	text-align:center ;
+ }	
+ .Title
+ {
+	font-size:16px;
+	color : DarkBlue;
+	font-weight :bold ;
+}	
+.MessageLabel
+{
+	color :Blue ;
+	text-align:center ;
+	
+}
+.File
+{
+  border-right: #003c74 1px solid;
+  padding-right: 3px;
+  border-top: #003c74 1px solid;
+  padding-left: 3px;
+  font-size: 9pt;
+  padding-bottom: 0px;
+  margin: 1px 0px 0px;
+  border-left: #003c74 1px solid;
+  color: Blue;
+  padding-top: 0px;
+  border-bottom: #003c74 1px solid;
+  font-family: 宋体, Arial, Sans-Serif;
+  vertical-align: middle;
+}
+.light
+{
+	 FILTER: Light 
+}
+.date 
+{ 
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px; 
+	COLOR: #000000; 
+	FONT-FAMILY: "Geneva", "Arial", "Helvetica", "san-serif"; 
+	TEXT-ALIGN: center 
+}
+
+				
+

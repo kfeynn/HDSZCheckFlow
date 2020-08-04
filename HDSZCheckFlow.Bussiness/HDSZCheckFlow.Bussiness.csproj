@@ -1,0 +1,276 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3A93250-2799-423C-9198-0E1C095DB03E}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HDSZCheckFlow.Bussiness</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HDSZCheckFlow.Bussiness</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.ActiveRecord">
+      <Name>Castle.ActiveRecord</Name>
+      <HintPath>..\Resource\Castle.ActiveRecord.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.jmail, Version=4.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resource\Interop.jmail.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>system.web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\HDSZCheckFlow.Common\HDSZCheckFlow.Common.csproj">
+      <Name>HDSZCheckFlow.Common</Name>
+      <Project>{8F5E2628-A480-42E4-96AD-9E72BD3052F6}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\HDSZCheckFlow.DataAccess\HDSZCheckFlow.DataAccess.csproj">
+      <Name>HDSZCheckFlow.DataAccess</Name>
+      <Project>{D1ED80B4-2EAD-4EA3-ACB5-A1D703001811}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\HDSZCheckFlow.Entiy\HDSZCheckFlow.Entiy.csproj">
+      <Name>HDSZCheckFlow.Entiy</Name>
+      <Project>{202F3762-A29C-4B94-B5B1-432CDBF5D65D}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <COMReference Include="jmail">
+      <Guid>{AED3A6B0-2171-11D2-B77C-0008C73ACA8F}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplyAuditingBLL.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyProcessTypeBll.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetHeadBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplySheetHeadForAssetBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetAdvanceRemarksBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetBudgetBll.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetCheckFlowBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssetFinallyCheckPrice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseAccountSubjectBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BudgetAccountBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckFlowInCompanyBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckFlowInDeptBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ComQuaryBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CostBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CurrRateBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeptBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetCostBll.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MailBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MailBLL1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MailSetUpBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OrderManageBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaginationBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealMoneyAlterSheetBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SendEmailTimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SmallFixedAssetsFlagBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SmallFixedBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemMessageBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="upLoadFileBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserInfoBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

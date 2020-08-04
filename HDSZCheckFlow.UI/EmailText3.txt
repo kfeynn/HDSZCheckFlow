@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>预算审批提醒邮件</title>
+<style type="text/css">
+body{
+	font-size:12px;
+	line-height:140%;
+}
+#header {
+	margin:0px auto;
+	width: 700px;
+	height: 100px;
+	background-color: #666666;
+	color: #FFFFFF;
+	overflow:hidden;
+}
+#header h1 {
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#layout {
+	margin:0px auto;
+	width: 700px;
+}
+#left {
+	margin:0px auto;
+	float: left;
+	width: 150px;
+	background-color: #8DAD1F;
+}
+#left ul:hover
+{
+	background-color:#000;
+}
+#right {
+	margin:0px auto;
+	width: 530px;
+	float: left;
+	padding: 10px;
+	
+}
+.codeview {
+	padding:10px;
+	background-color: #F6F6F6;
+	border-width: 1px;
+	border-color: #339900;
+	border-style: dashed;
+}
+
+#titlelist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-bottom-width: 0px;
+}
+#titlelist li {
+	padding-top: 5px;
+	padding-left: 10px;
+	border-bottom: 1px solid #A3C431;
+	padding-bottom: 5px;
+	color: #fff;
+}
+#nav li {
+	float: left;
+	list-style-type: none;
+}
+#nav {
+	margin-left:400px;
+	margin-top: 36px;
+}
+
+#nav a {
+	display: block;
+	background-color: #999999;
+	padding: 5px;
+	margin-left: 3px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav a:hover {
+	background-color: #787878;
+}
+#nav #current {
+	background-color: #FFFFFF;
+	color: #666666;
+}
+.red {
+	color: #FF0000;
+}
+.strongText {
+	color: #003366;
+	font-weight: bold;
+	background-color: #FFFF00;
+}
+.blue {
+	color: #0000FF;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="header">
+  <h1>IE捉迷藏问题</h1>
+   
+</div>
+<div id="layout">
+  <div id="left">
+    <ul id="titlelist">
+      <li><a  href="#">IE捉迷藏</a></li>
+      <li>UL的不同表现</li>
+      <li>IE 3px问题</li>
+      <li>高度不适应</li>
+      <li>IE断头台问题</li>
+    </ul>
+  </div>
+  <div id="right">
+    <p>捉迷藏问题(<span class="strongText">Peekaboo Bug</span>)是IE浏览器中的一个非常典型的对CSS的支持上的bug，说他是bug毫不为过，捉迷藏问题主要出现在IE6浏览器，当div应用稍显复杂的时候，常常出现的情况是在用于版式布局的时候，有时候当我们制作一个左右二栏的网页，而每个栏中又有一些链接、div等，这个时候容易引发捉迷藏问题，如本例中的代码：</p>
+    <div class="codeview"></div>
+    <p>本例中的XHTML结构代码尝试构建一个二栏式布局，其中#left为左栏，#right为右栏，包含bottom文字的为底部，我们尝试在这样一个结构中加如一些虚假内容：</p>
+    <div class="codeview"></div>
+    <p>接下来就是样式了，为了便于本例bug的显示，我们使用CSS先定制了这些对象的基本属性，然后加粗他们的边框</p>
+  </div>
+</div>
+</body>
+</html>

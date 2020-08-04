@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<menu>
+  <entity id="c1">
+    <description>加同级</description>
+    <image>../../images/TreeMenu/add_small.gif</image>
+    <imageOpen>../../images/TreeMenu/add_small.gif</imageOpen>
+    <onClick>AddEquiNode()</onClick>
+    <contents>
+    </contents>
+  </entity>
+  <entity id="c2">
+    <description>加下级</description>
+    <image>../../images/TreeMenu/add_small.gif</image>
+    <imageOpen>../../images/TreeMenu/add_small.gif</imageOpen>
+    <onClick>AddSubNode()</onClick>
+    <contents>
+    </contents>
+  </entity>
+  <entity id="c3">
+    <description>修改</description>
+    <image>../../images/TreeMenu/add_small.gif</image>
+    <imageOpen>../../images/TreeMenu/add_small.gif</imageOpen>
+    <onClick>RenameNode()</onClick>
+    <contents>
+    </contents>
+  </entity>
+  <entity id="c4">
+    <description>删除</description>
+    <image>../../images/TreeMenu/x_small.gif</image>
+    <imageOpen>../../images/TreeMenu/x_small.gif</imageOpen>
+    <onClick>DeleteNode()</onClick>
+    <contents>
+    </contents>
+  </entity>  
+</menu>

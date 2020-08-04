@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.Services.Logging.Log4netIntegration</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.Services.Logging.Log4netIntegration.Log4netFactory">
+            <summary>
+            Summary description for log4netFactory.
+            </summary>
+        </member>
+        <member name="T:Castle.Services.Logging.Log4netIntegration.Log4netLogger">
+            <summary>
+            Summary description for log4netLogger.
+            </summary>
+        </member>
+    </members>
+</doc>

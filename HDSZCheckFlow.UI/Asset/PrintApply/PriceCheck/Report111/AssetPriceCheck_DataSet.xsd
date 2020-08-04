@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AssetPriceCheck_DataSet" targetNamespace="http://tempuri.org/AssetPriceCheck_DataSet.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/AssetPriceCheck_DataSet.xsd"
+	xmlns:mstns="http://tempuri.org/AssetPriceCheck_DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="AssetPriceCheck_DataSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="FinallyPriceCheck_ApplyHeadInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ApplySheetHead_Pk" type="xs:string" minOccurs="0" />
+							<xs:element name="ApplySheetNo" type="xs:string" minOccurs="0" />
+							<xs:element name="ApplyTypeName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemName" type="xs:string" minOccurs="0" />
+							<xs:element name="SheetRmbMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ApplyDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DeptName" type="xs:string" minOccurs="0" />
+							<xs:element name="ApplyPersonName" type="xs:string" minOccurs="0" />
+							<xs:element name="BudgetType" type="xs:string" minOccurs="0" />
+							<xs:element name="RequestDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="BargainNo" type="xs:string" minOccurs="0" />
+							<xs:element name="PayForArticle" type="xs:string" minOccurs="0" />
+							<xs:element name="MakeDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DeliveryDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SubmitDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Remark" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckDept" type="xs:string" minOccurs="0" />
+							<xs:element name="TradeAgreement" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="FinallyPriceCheck_ApplyBodyInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SubjectName" type="xs:string" minOccurs="0" />
+							<xs:element name="InventoryName" type="xs:string" minOccurs="0" />
+							<xs:element name="InvType" type="xs:string" minOccurs="0" />
+							<xs:element name="FinallyPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FNumber" type="xs:int" minOccurs="0" />
+							<xs:element name="FCheckMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OriginalMoney" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UnitName" type="xs:string" minOccurs="0" />
+							<xs:element name="Offer" type="xs:string" minOccurs="0" />
+							<xs:element name="Remark" type="xs:string" minOccurs="0" />
+							<xs:element name="ExchangeRate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="currTypeCode" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="FinallyPriceCheck_ApplyRecordInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AssetCheckPriceHead_Pk" type="xs:int" minOccurs="0" />
+							<xs:element name="IsCheckInCompany" type="xs:int" minOccurs="0" />
+							<xs:element name="CheckRole" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckRoleName" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckPersonCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckComment" type="xs:string" minOccurs="0" />
+							<xs:element name="CheckSetp" type="xs:int" minOccurs="0" />
+							<xs:element name="Checkdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="IsPass" type="xs:int" minOccurs="0" />
+							<xs:element name="IsAgree" type="xs:string" minOccurs="0" />
+							<xs:element name="IsDisplays" type="xs:int" minOccurs="0" />
+							<xs:element name="DisplaysPersonCode" type="xs:string" minOccurs="0" />
+							<xs:element name="displaysName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
